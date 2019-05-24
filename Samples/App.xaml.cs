@@ -4,6 +4,7 @@ using Acr.UserDialogs;
 using Autofac;
 using Prism;
 using Prism.Autofac;
+using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Mvvm;
 using Xamarin.Forms;
@@ -91,7 +92,8 @@ namespace Samples
                 .AutoActivate()
                 .SingleInstance();
 
-            return new AutofacContainerExtension(builder);
+            //return new AutofacContainerExtension(builder);
+            return new DryIocContainerExtension(builder);
         }
     }
 }

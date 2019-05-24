@@ -14,7 +14,7 @@
         <PackageReference Include="Humanizer" Version="2.6.2" />
         <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.0.0" />
         <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.0.0" />
-        <PackageReference Include="Prism.Autofac.Forms" Version="7.1.0.431" />
+        <PackageReference Include="Prism.DryIoc.Forms" Version="7.1.0.431" />
         <PackageReference Include="ReactiveUI.Fody" Version="9.16.1" />
         <PackageReference Include="Shiny.Beacons" Version="1.0.0.181" />
         <PackageReference Include="Shiny.BluetoothLE" Version="1.0.0.181" />

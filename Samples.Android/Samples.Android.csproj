@@ -57,7 +57,7 @@
     <PackageReference Include="Acr.UserDialogs">
       <Version>7.0.4</Version>
     </PackageReference>
-    <PackageReference Include="Prism.Autofac.Forms">
+    <PackageReference Include="Prism.DryIoc.Forms">
       <Version>7.1.0.431</Version>
     </PackageReference>
     <PackageReference Include="Shiny.Beacons">
